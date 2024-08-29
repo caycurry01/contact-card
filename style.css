@@ -14,10 +14,17 @@ body {
     background-color: #4A707A;
     width: 100%;
     text-align: center;
-    padding: 50px 0;
+    padding: 40px 0;
     color: white;
     font-size: 1rem;
     margin: 0;
+}
+
+.header .description { /* Style for the new description */
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif; /* Ensure Arial font is used */
 }
 
 .contact-options {
@@ -104,6 +111,7 @@ body {
     margin-top: 30px; /* Increase the space between the sections */
     text-align: center;
     box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Ensure Arial font is used */
 }
 
 .social-media h3 {
