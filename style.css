@@ -23,7 +23,7 @@ body {
 .contact-options {
     display: flex;
     justify-content: space-between; /* Adjust spacing */
-    width: 250px; /* Increase the width of the container */
+    width: 150px; /* Increase the width of the container */
     margin: 0 auto; /* Center the container */
     position: absolute; /* Fix the position relative to the parent */
     left: 50%;
