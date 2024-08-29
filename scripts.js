@@ -19,7 +19,7 @@ END:VCARD`;
 
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${contact.name}.vcf`;
+    a.download = `${contact.name}.vcf`;  // This creates a vCard file
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
